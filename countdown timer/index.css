@@ -1,0 +1,70 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+.countdown-container {
+    text-align: center;
+}
+
+#countdown {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+#countdown div {
+    background: #444;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#countdown span {
+    display: block;
+    font-size: 2em;
+}
+
+input[type="datetime-local"] {
+    padding: 15px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(8, 78, 8);
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+
+button:nth-child(2) {
+    background: rgb(190, 39, 39);
+}
+
+
+
+button:nth-child(3) {
+    background: #131e74e2;
+}
+
